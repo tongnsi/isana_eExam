@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Temple by Region</title>
+    <link rel="stylesheet" href="temple.css">
+</head>
+
+<body>
+    <div id="temple" class="templeall">
+        <h1>TEMPLE BY REGION</h1>
+        <p>ค้นหาข้อมูลวัดตามภูมิภาค</p>
+
+        <div class="slider-wrapper">
+
+            <div id="watthai" class="watthai">
+                <div class="imagewatthai2">
+                    <img src="north.jpg" alt="ภาคเหนือ" id="imagewatthai">
+                    <div class="caption">ภาคเหนือ</div>
+                </div>
+                <div class="imagewatthai2">
+                    <img src="central.png" alt="ภาคกลาง" id="imagewatthai">
+                    <div class="caption">ภาคกลาง</div>
+                </div>
+                <div class="imagewatthai2">
+                    <img src="northeast.jpg" alt="ภาคตะวันออกเฉียงเหนือ" id="imagewatthai">
+                    <div class="caption">ภาคตะวันออกเฉียงเหนือ</div>
+                </div>
+                <div class="imagewatthai2">
+                    <img src="east.PNG" alt="ภาคตะวันออก" id="imagewatthai">
+                    <div class="caption">ภาคตะวันออก</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dots">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+        </div>
+    </div>
+
+    <script src="temple.js"></script>
+</body>
+
+</html>
